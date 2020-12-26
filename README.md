@@ -13,7 +13,7 @@ https://www.instructables.com/id/Build-MIDI-Bass-Pedals-for-About-150/
 Some .h files are not used and were just some ideas.
 
 The idea is to build your own midi controller for live usage.
-This project is extended with a Raspberry Pi as an interface for different midi sources and because my Midi Device could not understand the commands.
+This project is extended with a Raspberry Pi as an interface for different midi sources and because the midi device (Moog Minitaur) could not understand the commands.
 
 
 ## Connections

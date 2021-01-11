@@ -19,7 +19,8 @@ void setup()
   ledSetup();
 
   // Serial Com Init
-  Serial.begin(115200);  //start serial with midi baudrate 31250, for programming use 38400. In combination with serial computing, use 115200 or assigned value
+  Serial.begin(38400);  //midi baudrate 31250, for programming/using with raspberry pi use ohter value
+  //Serial.begin(31250, SERIAL_8E2);  //you might have to change byte structure (in my case SERIAL_8E2 for a moog minitaur) to use without raspberry pi
 }
 
 

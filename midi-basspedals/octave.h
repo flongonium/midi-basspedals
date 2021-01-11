@@ -13,7 +13,7 @@
  */
 #include <Arduino.h>
 /* ----------------------OCTAVE General----------------------------- */
-#define DEBOUNCE 1500
+#define DEBOUNCE 1500  //change (in my case to 15) to use without raspberry pi
 
 int octaveUpPin         = 2;
 int buttonStateUp       = 0;
